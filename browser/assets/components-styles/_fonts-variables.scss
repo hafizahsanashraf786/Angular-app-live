@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  /* Update the path accordingly */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("../fonts/Inter-Regular.ttf") format("truetype");
+  /* Update the path accordingly */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../fonts/Segoe\ UI.ttf") format("truetype");
+  /* Update the path accordingly */
+  font-weight: normal;
+  font-style: normal;
+}
+
+// font family variables
+$font-family-Open-Sans: "Open Sans", Arial, sans-serif;
+$inter-font-family: "inter";
+$segoe-font-family: "Segoe UI";
+
+// font sixe variables
+$fs-7: 7px;
+$fs-9: 9px;
+$fs-10: 10px;
+$fs-12: 12px;
+$fs-13: 13px;
+$fs-14: 14px;
+$fs-16: 16px;
+$fs-18: 18px;
+
+// font weights variables
+$fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;
+$fw-700: 700;
+$fw-800: 800;
+$fw-900: 900;
+
+// font colors variables
+$text-color: #676a6c;
+$text-required: #ff0000;
+$text-white: #fff;
+$text-black: #000;
+$text-blue: #00add9;
+$text-darkblue: #032f38;
+
+// border colors variables
+$border-color: #d9d9d9;
+$border-color-black: #000;
+$border-card-color: #e4e4e4;
+
+// background colors variables
+$bg-white: #fff;
+$bg-black: #000;
+$bg-darkblue: #032f38;
+$bg-content-color: #f8faff;
+$table-header-bg-color: #f7f7f7;
+$body-bg: rgb(248, 250, 255);
+$bg-green: #7ea310;
+
+// icon color Variables
+$trigger-icon: #929292;
+$checkBox-icon-color: #000;

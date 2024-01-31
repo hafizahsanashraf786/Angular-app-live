@@ -1,0 +1,305 @@
+.header-bg {
+    background: $bg-darkblue;
+}
+
+.body-bg {
+    background: $body-bg;
+}
+
+.border-bootom {
+    border-bottom: 1px solid $border-color;
+}
+
+.border-bootom-dash {
+    border-bottom: 1px dashed $border-color;
+}
+
+.p-toast-message-content {
+    .p-toast-message.p-toast-message-success {
+        color: $text-white;
+        background: green;
+    }
+}
+
+.text-note {
+    color: $text-required;
+    font-family: $font-family-Open-Sans;
+    font-size: $fs-13;
+    font-weight: $fw-700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.card-shadow {}
+
+.checkbox-label {
+    font-family: $font-family-Open-Sans;
+    font-size: $fs-13;
+    font-weight: $fw-400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.p-card {
+    border: 1px solid $border-card-color;
+    box-shadow: none;
+    border-radius: 10px;
+
+    .p-card-body {
+        padding: 0;
+
+        .p-card-title {
+            font-family: $font-family-Open-Sans;
+            font-size: $fs-14;
+            font-weight: $fw-400;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+            background: linear-gradient(0deg, #d9d9d9, #d9d9d9),
+                linear-gradient(0deg, #f5f5f5, #f5f5f5);
+            text-align: center;
+            padding: 8px;
+            color: $text-color;
+        }
+
+        .p-card-content {
+            padding: 0;
+        }
+    }
+}
+
+//   DropdownCommon Style
+.p-dropdown {
+    border-radius: 4px;
+
+    .p-dropdown-label.p-inputtext {
+        height: 36px;
+        padding: 0.5rem;
+        padding-left: 1rem;
+        font-family: $font-family-Open-Sans;
+        font-size: $fs-13;
+        font-weight: $fw-400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $text-color;
+
+        &.p-placeholder {
+            color: $text-color;
+        }
+    }
+
+    .p-dropdown-trigger {
+        color: $trigger-icon;
+
+        .p-icon-wrapper {
+            svg {
+                width: 20px !important;
+                height: 20px !important;
+            }
+        }
+    }
+
+    .p-overlay {
+        .p-overlay-content {
+            .p-dropdown-panel {
+                .p-dropdown-items-wrapper {
+                    ul.p-dropdown-items {
+                        padding: 0;
+
+                        .p-dropdown-item {
+                            padding: 0.5rem 1rem;
+                            color: $text-color;
+                            font-family: $font-family-Open-Sans;
+                            font-size: $fs-13;
+                            font-weight: $fw-400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &:not(.p-disabled):hover {
+        border-color: $border-color;
+    }
+
+    &:not(.p-disabled).p-focus {
+        border-color: $border-color;
+        box-shadow: none;
+    }
+}
+
+//   label comon style
+.label-text {
+    color: $text-color;
+    font-family: $font-family-Open-Sans;
+    font-size: $fs-13;
+    font-weight: $fw-400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: right !important;
+    padding-top: 10px !important;
+    padding-right: 5px;
+
+    .required {
+        color: $text-required;
+    }
+}
+
+//   check box styleing
+.field-checkbox {
+    .p-checkbox {
+        .p-checkbox-box {
+            border-radius: 0px;
+            width: 18px;
+            height: 18px;
+
+            .p-checkbox-icon {
+                color: $checkBox-icon-color;
+            }
+
+            &.p-highlight {
+                border-color: $border-color-black;
+                background: $bg-white;
+            }
+        }
+
+        &:not(.p-checkbox-disabled) .p-checkbox-box.p-focus {
+            box-shadow: none;
+            border-color: $border-color-black;
+        }
+
+        &:not(.p-checkbox-disabled) .p-checkbox-box:hover {
+            border-color: $border-color-black;
+        }
+    }
+
+    .p-checkbox-label {
+        color: $text-color;
+        font-family: $font-family-Open-Sans;
+        font-size: $fs-13;
+        font-weight: $fw-400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
+
+//   buttons Style
+.p-button {
+    color: $text-white;
+    background: $bg-darkblue;
+    border: none;
+    font-size: $fs-13;
+    border-radius: 3px;
+    padding: 3px 8px 3px 8px;
+
+    .p-button-label {
+        font-family: $inter-font-family;
+        font-size: $fs-13;
+        font-weight: $fw-400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.cancel {
+    .p-button {
+        color: $text-color;
+        background: $bg-white;
+        border: 1px solid $bg-darkblue;
+
+        .p-button-label {
+            font-family: $font-family-Open-Sans;
+            font-size: $fs-14;
+            font-weight: $fw-400;
+            line-height: 17px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+    }
+}
+
+.save {
+    .p-button {
+        .p-button-label {
+            font-family: $font-family-Open-Sans;
+            font-size: $fs-14;
+            font-weight: $fw-400;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+    }
+}
+
+// input fields
+.p-inputtext {
+    height: 36px;
+    border-radius: 4px;
+    font-family: $font-family-Open-Sans;
+    font-size: $fs-13;
+    font-weight: $fw-400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $text-color;
+
+    &:enabled:hover {
+        border-color: $border-color;
+    }
+
+    &:enabled:focus {
+        outline: 0 none;
+        outline-offset: 0;
+        box-shadow: none;
+        border-color: $border-color;
+    }
+}
+
+// listBox 
+.p-listbox {
+    border: none;
+
+    .p-listbox-list-wrapper {
+        max-height: 100% !important;
+        height: calc(100vh - 180px);
+
+        .p-listbox-list {
+            padding: 0;
+            font-family: $font-family-Open-Sans;
+            font-size: $fs-13;
+            font-weight: $fw-400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            color: $text-color;
+
+            .p-listbox-item {
+                display: block;
+                padding: 0.5rem;
+                margin-top: 5px;
+                background: #efefef;
+
+                &.p-highlight {
+                    color: $text-color;
+                    background: #f1f6e0;
+                }
+            }
+        }
+    }
+
+    &.p-focus {
+        outline: 0 none;
+        outline-offset: 0;
+        box-shadow: none;
+        border-color: none;
+    }
+}

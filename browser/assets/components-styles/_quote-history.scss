@@ -1,0 +1,127 @@
+.quote-history-table {
+    .table-container {
+        margin-left: 100px;
+        margin-right: 100px;
+        background-color: #F8FAFF;
+    }
+
+    p {
+        text-align: left;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #676A6C;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .p-input-icon-left {
+        margin-bottom: 10px;
+    }
+
+    input {
+        width: 40%;
+        height: 38px;
+        color: #D9D9D9
+    }
+
+    input::placeholder {
+        color: #d9d9d9;
+    }
+
+    .p-datatable-thead tr th {
+        font-size: 13px;
+        font-weight: 700;
+        background: #fff !important;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .p-datatable-tbody tr td {
+        color: #676A6C;
+        font-size: 13px;
+        border-bottom: 1px solid #ccc;
+        padding: 7px 10px 7px 10px
+    }
+
+    button {
+        margin-top: 0px;
+        color: #676A6C !important;
+        border: 1px solid #D9D9D9;
+    }
+
+    button.btn-outline-dark {
+        border: 1px solid #D9D9D9 !important;
+        background-color: #fff !important;
+        height: 36px !important;
+    }
+
+    button.btn-outline-dark span {
+        color: #676A6C !important;
+        font-weight: normal !important;
+    }
+
+    .p-input-icon-left {
+        display: flex;
+        align-items: center;
+    }
+
+    .p-input-icon-left input {
+        margin-right: 10px;
+        /* Adjust the margin as needed to create space between the input and button */
+    }
+
+
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .custom-table {
+        max-height: 465px;
+        top: 238px;
+        left: 120px;
+        gap: 15px;
+    }
+
+    .p-paginator {
+        margin-top: 10px;
+        /* Adjust as needed */
+    }
+
+    /* Align paginator to the right corner */
+    .p-paginator {
+        display: flex;
+        justify-content: flex-end;
+        float: right;
+    }
+
+    .p-paginator span.p-paginator-current {
+        display: none;
+    }
+
+    .p-paginator .p-dropdown {
+        display: none;
+    }
+
+    .p-paginator span.p-paginator-pages button {
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+
+    .p-paginator div.p-paginator-right-content button {
+        display: none;
+    }
+
+    .p-paginator div.p-paginator-right-content .p-element button span.p-button-icon {
+        display: none;
+    }
+
+    /* Customize paginator buttons */
+    .p-button-text {
+        margin-right: 5px;
+        /* Add space between paginator buttons */
+    }
+}

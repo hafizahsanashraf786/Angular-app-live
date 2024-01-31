@@ -1,0 +1,251 @@
+.welcome-rater {
+    .getstarted {
+        .wizard-topbar {
+            flex-direction: row;
+            justify-content: flex-end;
+            padding: 7px 30px 0 0;
+
+            .nav-item {
+                .nav-link {
+                    font-family: $font-family-Open-Sans;
+                    font-size: $fs-14;
+                    font-weight: $fw-400;
+                    line-height: 19px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: $text-white;
+
+                    &.user-logo {
+                        img {
+                            width: 24px;
+                            height: 25.04px;
+                        }
+                    }
+                }
+
+                &.username {
+                    padding-right: 20px;
+                }
+            }
+        }
+
+        .welcome-logo {
+            padding-top: 80px;
+        }
+
+        .welcome-agent {
+            font-family: $inter-font-family;
+            font-size: 32px;
+            font-weight: $fw-700;
+            line-height: 39px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: $text-white;
+            padding: 20px 0 20px 0;
+        }
+    }
+
+    .getstarted-body {
+        .thank-text {
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 29px;
+            letter-spacing: 0em;
+            color: $text-darkblue;
+        }
+
+        .getstartBtn {
+            .p-button {
+                border-radius: 8px;
+
+                .p-button-label {
+                    font-family: $inter-font-family;
+                    font-size: 32px;
+                    font-weight: $fw-700;
+                    line-height: 39px;
+                    letter-spacing: 0em;
+                    padding: 5px 24px 5px 24px !important;
+                }
+            }
+        }
+
+        .skip-setup {
+            font-family: $inter-font-family;
+            font-size: $fs-16;
+            font-weight: $fw-400;
+            line-height: 19px;
+            letter-spacing: 0em;
+            cursor: pointer;
+            color: $text-blue;
+        }
+    }
+}
+
+.wizard-Ams {
+    .wiz-heading {
+        font-family: $font-family-Open-Sans;
+        font-size: 18px;
+        font-weight: $fw-700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: $text-black;
+    }
+
+    .nowcert-logo {
+        border-bottom: 1px solid $border-color;
+
+        &.ncr-icon {
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .ncr-icon-name {
+                font-family: $font-family-Open-Sans;
+                font-size: $fs-14;
+                font-weight: $fw-700;
+                line-height: 19px;
+                letter-spacing: 0em;
+                margin-left: 4px;
+            }
+        }
+    }
+
+    .nowcert-name {
+        font-family: $font-family-Open-Sans;
+        font-size: 24px;
+        font-weight: $fw-700;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: $text-color;
+    }
+
+    .wiz-ams-continue-btn {
+        .p-button {
+            padding: 5px 25px 5px 24px;
+            border-radius: 8px;
+
+            .p-button-label {
+                font-family: $inter-font-family;
+                font-weight: $fw-400;
+                font-size: 24px;
+                line-height: 29px;
+                letter-spacing: 0em;
+                text-align: center;
+            }
+        }
+    }
+
+    .wiz-ams-skip {
+        font-family: $inter-font-family;
+        font-size: $fs-16;
+        font-weight: $fw-400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: $text-blue;
+        cursor: pointer;
+    }
+
+    // Vlidate component style start
+    .label-text {
+        font-family: $font-family-Open-Sans;
+        font-size: $fs-14;
+        font-weight: $fw-600;
+        line-height: 19px;
+        letter-spacing: 0em;
+    }
+
+    .btn-green {
+        .p-button {
+            background: $bg-green;
+        }
+    }
+}
+
+
+
+.wizard-providers {
+
+    .wiz-porovider-heading {
+        font-family: $font-family-Open-Sans;
+        font-size: 18px;
+        font-weight: $fw-700;
+        line-height: 24.51px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: $text-black;
+    }
+
+    .select-provider-name {
+        margin-left: 15px;
+        font-family: $font-family-Open-Sans;
+        font-size: $fs-14;
+        font-weight: $fw-700;
+        line-height: 19.7px;
+        letter-spacing: 0em;
+        color: $text-color;
+        padding-top: 3px;
+    }
+
+    .cancel-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        i {
+            font-size: 30px;
+            color: $trigger-icon;
+            opacity: 0.5;
+            cursor: pointer;
+        }
+    }
+
+    .provider-name {
+        font-family: $font-family-Open-Sans;
+        font-size: $fs-16;
+        font-weight: $fw-400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $text-color;
+    }
+
+    .providerBy-name {
+        font-family: $segoe-font-family;
+        font-size: $fs-7;
+        font-weight: $fw-400;
+        line-height: 9px;
+        letter-spacing: 0em;
+        text-align: right;
+        position: relative;
+        top: 10px;
+        color: $text-color;
+    }
+
+    .icons {
+        position: relative;
+        top: 8px;
+    }
+
+    // listBox 
+    .p-listbox {
+        border: none;
+        background: none;
+
+        .p-listbox-list-wrapper {
+            max-height: 100% !important;
+            height: 100%;
+
+            .p-listbox-list {
+                .p-listbox-item {
+                    padding: 0;
+                    background: none;
+                }
+            }
+        }
+    }
+}
